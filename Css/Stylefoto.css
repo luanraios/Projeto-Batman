@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+@media(max-width: 768px) {
+    .footer-navigation {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+
+header {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+li {
+    color: aliceblue;
+    font-size: 19px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+li:hover {
+    color: red;
+}
+
+#logo {
+    width: 160px;
+    height: auto;
+}
+
+footer {
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: aliceblue;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(max-width: 768px) {
+    .footer-navigation {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+
+}
+
+.img-navigation {
+    height: 1100px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 190px;
+}
+
+.img-content-1 {
+    height: 300px;
+    width: 500px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    transition: 1s; 
+    background-image: url(https://f.i.uol.com.br/fotografia/2022/03/03/1646335025622114315bf25_1646335025_3x2_md.jpg);
+    background-size: cover;
+}
+
+.img-content-2 {
+    height: 300px;
+    width: 500px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    transition: 1s;
+    background-image: url(https://www.tribunapr.com.br/wp-content/uploads/sites/56/2022/02/28121731/rev-1-TBM-11721r_High_Res_JPEG.jpeg);
+    background-size: cover;
+}
+
+.img-content-3 {
+    height: 300px;
+    width: 500px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    transition: 1s;
+    background-image: url(https://cdn.ome.lt/xrg3cOl3Z4cwKuTrgseOgOuwk5k=/1200x630/smart/extras/conteudos/batman_pat.png);
+    background-size: cover;
+}
+
+.img-content-4 {
+    height: 300px;
+    width: 500px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    transition: 1s;
+    background-image: url(https://universoheroico.com.br/wp-content/uploads/2022/03/Imagme-do-filme-Batman.jpg);
+    background-size: cover;
+}
+
+.img-content-5 {
+    height: 300px;
+    width: 500px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    transition: 1s;
+    background-image: url(https://sm.ign.com/ign_br/news/t/the-batman/the-batman-sequel-announced-with-robert-pattinson-at-cinemac_ffx9.jpg);
+    background-size: cover;
+}
+
+.img-content-6 {
+    height: 300px;
+    width: 500px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    transition: 1s;
+    background-image: url(https://i.ytimg.com/vi/rsQEor4y2hg/maxresdefault.jpg);
+    background-size: cover;
+}
+
+.img-content-1:hover {
+    transform: scale(1.02);
+}
+.img-content-2:hover {
+    transform: scale(1.02);
+}
+.img-content-3:hover {
+    transform: scale(1.02);
+}
+.img-content-4:hover {
+    transform: scale(1.02);
+}
+.img-content-5:hover {
+    transform: scale(1.02);
+}
+.img-content-6:hover {
+    transform: scale(1.02);
+}
+
